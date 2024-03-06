@@ -5,7 +5,7 @@
 #include "generalO.hpp"
 // #include <stdio.h>
 
-namespace OLED
+namespace screen
 {
     class OLED_Object : public genO::generalOutputBase // dc,cs,res
     {

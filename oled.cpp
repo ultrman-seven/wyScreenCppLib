@@ -1,7 +1,7 @@
 #include "oled.hpp"
 // #include "common.h"
 #include "wy_font.hpp"
-using namespace OLED;
+using namespace screen;
 void delayMs(unsigned int ms);
 // OLED_Object::OLED_Object(const char *dc, const char *cs, const char *res, void (*f)(uint8_t))
 // {
