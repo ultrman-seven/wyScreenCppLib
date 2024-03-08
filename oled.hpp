@@ -22,11 +22,11 @@ namespace screen
         void (*resOut)(bool);
 
     public:
-        char str[64] = {0};
+        // char str[64] = {0};
         // OLED_Object() = default;
         OLED_Object(void (*dc)(bool) = nullptr, void (*cs)(bool) = nullptr, void (*res)(bool) = nullptr, void (*f)(uint8_t) = nullptr)
             : dcOut(dc), csOut(cs), resOut(res), transFunc(f) { this->reset(); }
-        void printStr(void) { print(str); }
+        // void printStr(void) { print(str); }
         void reset(void);
         virtual void clear(void);
         void Picture_display(uint8_t *ptr_pic, uint8_t colStart, uint8_t pageStart, uint8_t line, uint8_t col);
